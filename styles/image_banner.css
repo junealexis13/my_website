@@ -34,7 +34,7 @@ img.banner-image {
     border-radius: 50%;
     vertical-align: center;
     box-shadow: 0px 0px 20px rgb(212, 173, 252, 0.5);
-    max-width: 15vw;
+    max-width: 30vw;
 }
 
 
@@ -49,11 +49,11 @@ p.banner-outro {
     color: white;
     font-family: Carter One;
     line-height: 4vw;
-    font-size: 3vw;
+    font-size: 4vw;
 }
 
 p.banner-name {
-    color: rgb(241, 117, 23);
+    color: rgb(229, 124, 35);
     font-family: "Wix Madefor Text";
     font-size: 10vw;
     max-width: 100%;
@@ -64,15 +64,10 @@ p.banner-name {
 span.banner-outro-1 {
     font-family: "Wix Madefor Text";
     font-weight: 100;
-    font-size: 3vw;
-}
-
-span.banner-outro-2 {
-    font-weight: 700;
-    font-size: 4vw;
+    font-size: 4.5vw;
 }
 
 span.banner-name-surname {
-    color: cyan;
+    color: #FDE07F;
     font-size: 12vw;
 }

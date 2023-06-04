@@ -46,7 +46,7 @@ img.logo {
 }
 
 span.material-symbols-outlined {
-    color: rgb(212, 173, 252);
+    color: rgb(229, 124, 35);
     font-size: 4vh;
     text-align: center;
     cursor: pointer;
@@ -54,7 +54,7 @@ span.material-symbols-outlined {
 }
 
 span.material-symbols-outlined:hover {
-    color: rgb(242, 233, 65);
+    color: rgb(232, 170, 66);
     font-size: 5vh;
     text-align: center;
     margin-left: 5px;
