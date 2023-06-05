@@ -47,7 +47,7 @@ img.logo {
 
 span.material-symbols-outlined {
     color: rgb(229, 124, 35);
-    font-size: 4vh;
+    font-size: 3vh;
     text-align: center;
     cursor: pointer;
     transition: color 0.2s, font-size 0.2s, margin-left 0.2s;
@@ -55,7 +55,7 @@ span.material-symbols-outlined {
 
 span.material-symbols-outlined:hover {
     color: rgb(232, 170, 66);
-    font-size: 5vh;
+    font-size: 4vh;
     text-align: center;
     margin-left: 5px;
     cursor: pointer;
