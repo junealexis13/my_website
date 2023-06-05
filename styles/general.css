@@ -9,15 +9,31 @@ p {
     font-family: "Roboto" ;
 }
 
+h1 {
+    font-family:"Roboto";
+}
 
 .curve-divider-image-1 {
     display: flex;
     overflow: hidden;
     width: 100%;
-
+    margin-bottom: -10px;
 }
 
 .curve-divider-image-1 svg {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.curve-divider-image-2 {
+  display: flex;
+  overflow: hidden;
+  width: 100%;
+  margin-bottom: -10px;
+}
+
+.curve-divider-image-2 svg {
     display: block;
     width: 100%;
     height: auto;

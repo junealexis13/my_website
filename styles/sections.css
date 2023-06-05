@@ -1,13 +1,29 @@
-div.section1 {
+section.section1 {
   display: flex;
   flex-direction: row;
   background-color: #E8AA42;
-  height: 100vh;
+  height: 200vh;
+  margin:0;
+  padding:0;
 }
 
-div.section1-a-left {
+div.section1-a-top {
   flex:1;
+  margin-left:25px;
+  margin-right: 25px;
+  padding-top: 50vh;
 }
-div.section1-a-right {
-  flex:1;
+
+div.section1-a-middle {
+  display: flex;
+  flex-direction: row;
+}
+
+p.head-text-intro {
+  font-size: 2vw;
+}
+
+.header-text-about {
+  font-weight: 700;
+  font-size: 5vw;
 }
