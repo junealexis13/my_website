@@ -10,14 +10,23 @@ const paths = [
 ]
 
 tl.from("section.section1", {
-    y:1000, duration:0.25, ease: "elastic.out(0.5, 0.75)"
+    y:1000, duration:0.5, ease: "power4.out"
 });
 for (const path of paths.reverse()) {
-    tl.from(
-        path, {
-            y:1000, duration:0.4, ease: "power4.out"
-        }
-    );
+    if (path == "path.path7") {
+        tl.from(
+            path, {
+                y:1000, duration:0.2, ease: "power4.out"
+            }
+        )
+    } else {
+        tl.from(
+            path, {
+                y:1000, duration:0.4, ease: "back.out(1)"
+            }
+        )
+    }
+;
 }
 
 tl.fromTo(".banner-image",{opacity:0, x:-90, rotation: "-45deg", scale: 0.5},{opacity:1, x:0, rotation:"0deg", scale:1, ease: "elastic.out(1, 0.5)" })
