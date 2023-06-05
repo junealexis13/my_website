@@ -4,6 +4,8 @@ div.banner {
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
+    overflow-x: 1;
+    margin-top: 4vh;
 }
 
 div.banner-element1 {
@@ -19,6 +21,7 @@ div.banner-element2 {
     /* border-color: aliceblue;
     border-style: solid; */
     flex: 1;
+    padding-top: 1vh;
 }
 
 div.banner-greetings {
@@ -34,7 +37,7 @@ img.banner-image {
     border-radius: 50%;
     vertical-align: center;
     box-shadow: 0px 0px 20px rgb(212, 173, 252, 0.5);
-    max-width: 25vw;
+    max-width: 20vw;
 }
 
 p.banner-intro{
@@ -42,13 +45,16 @@ p.banner-intro{
     font-family: Roboto;
     line-height: 3vw;
     font-size: 3vw;
+    margin-bottom: 1vh;
+    margin-left:4vw;
 }
 
 p.banner-outro {
     color: white;
-    font-family: Carter One;
-    line-height: 4vw;
+    font-weight: bold;
+    line-height: 0;
     font-size: 4vw;
+    text-align: center;
 }
 
 p.banner-name {
@@ -64,6 +70,7 @@ span.banner-outro-1 {
     font-family: "Wix Madefor Text";
     font-weight: 100;
     font-size: 4.5vw;
+    margin-left: 5vw;
 }
 
 span.banner-name-surname {

@@ -9,6 +9,9 @@ p {
     font-family: "Roboto" ;
 }
 
+h1.header-text-left {
+    font-family: Roboto;
+}
 
 .curve-divider-image-1 {
     display: flex;
