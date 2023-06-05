@@ -1,5 +1,5 @@
 div.banner {
-    height: 100vw;
+    height: 40vh;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -34,9 +34,8 @@ img.banner-image {
     border-radius: 50%;
     vertical-align: center;
     box-shadow: 0px 0px 20px rgb(212, 173, 252, 0.5);
-    max-width: 30vw;
+    max-width: 25vw;
 }
-
 
 p.banner-intro{
     color: white;
