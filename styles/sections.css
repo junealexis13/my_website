@@ -1,29 +1,44 @@
 section.section1 {
   display: flex;
-  flex-direction: row;
   background-color: #E8AA42;
   height: 200vh;
   margin:0;
   padding:0;
 }
 
-div.section1-a-top {
+div.section1 {
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+div.section1-a-mid-cont {
   flex:1;
   margin-left:25px;
   margin-right: 25px;
-  padding-top: 50vh;
+}
+
+div.section1-a-left-cont {
+  flex:1;
+  margin-left:25px;
+}
+
+div.section1-a-right-cont {
+  flex:1;
+  margin-left:25px;
+  margin-right: 25px;
 }
 
 div.section1-a-middle {
   display: flex;
   flex-direction: row;
 }
-
-p.head-text-intro {
-  font-size: 2vw;
-}
-
 .header-text-about {
-  font-weight: 700;
-  font-size: 5vw;
+  color: rgb(2, 84, 100);
+  font-weight: 900;
+  font-size: 3.5vw;
+  font-family: "Wix Madefor Text";
+  text-align: center;
+
 }
