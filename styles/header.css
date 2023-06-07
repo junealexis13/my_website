@@ -1,7 +1,7 @@
 p.icon {
     text-align: center;
     margin: 0px;
-    font-size: 8px;
+    font-size: 1vh;
 }
 
 
@@ -10,11 +10,12 @@ div.header {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    height: 10vh;
 }
 
 
 div.left-header {
-    width: 150px;
+    width: 10vh;
 }
 
 
@@ -22,6 +23,7 @@ div.right-header {
     color: aliceblue;
     /* background-color: aqua; */
     flex: 1;
+    height: 100%;
 }
 
 div.icon_container_head {
@@ -29,6 +31,7 @@ div.icon_container_head {
     flex-direction: row;
     justify-content: right;
     align-items: center;
+    height: 100%;
 }
 
 div.icon_container {
@@ -39,24 +42,22 @@ div.icon_container {
 }
 
 img.logo {
-    max-width: 40%;
+    max-width: 70%;
     margin-left: 25px;
-    object-fit:fill;
-    object-position: center;
 }
 
 span.material-symbols-outlined {
     color: rgb(229, 124, 35);
-    font-size: 2rem;
     text-align: center;
     cursor: pointer;
     transition: color 0.2s, font-size 0.2s, margin-left 0.2s;
+    font-size: 5vh;
 }
 
 span.material-symbols-outlined:hover {
     color: rgb(232, 170, 66);
-    font-size: 4rem;
     text-align: center;
     margin-left: 5px;
     cursor: pointer;
+    font-size: 6vh;
 }

@@ -1,16 +1,19 @@
 <html>
     <head>
         <link rel="stylesheet" href="styles/general.css">
-        <link rel="stylesheet" href="styles/transition.css">
-        <script src="https://unpkg.com/swup@3"></script>
-        <script src="transition.js"></script>
+        <link rel="stylesheet" href="styles/transition_manager.css">
+        <script src="https://unpkg.com/swup@3" defer></script>
+        <script src="transition.js" defer></script>
     </head>
     <body style="margin: 0; padding: 0;">
-        <main id ="swup" class="transition-fade">
-            <div style="display:flex; width: 100vw; height: 50vh; background-color: aquamarine; justify-content: center;align-items: center;">
-                <a href="page2.html">Go back to page 2</a>
+        <main id="swup" class="transition-fade">
+            <div class="sample">
+                <a style="font-size: 4rem;" href="page2.html">TO NEXT</a>
             </div>
         </main>
+        <div class="transition-wipe overlay">
+            <p class="transition">/JAS</p>
+        </div>
 
     </body>
 </html>
