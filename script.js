@@ -16,7 +16,7 @@ tl.fromTo(".banner-image",{opacity:0, x:-90, rotation: "-45deg", scale: 0.5},{op
 tl.fromTo("div.banner-element2",{x:200, opacity:0},{x:0, opacity:1, delay: 0.3})
 
 gsap.from("section.section1",{y:500, ease:"power3.out", duration:0.5, delay: 0.5,})
-gsap.from("path.path_mountain",{y:500, ease:"back.out(1,0.2)",stagger:0.05, delay: 1})
+gsap.from("path.path_mountain",{ opacity:0.5 ,x:viewportWidth ,ease:"power4.out",stagger:0.2, yoyo: true,delay: 1})
 
 tl.from("span.banner-outro-1", {
     opacity:0, duration:1.5, x:500, ease: "power4.out"
@@ -25,8 +25,8 @@ tl.from("span.banner-outro-1", {
 
 // TIMELINE ANIMATIONS
 
-gsap.from(document.getElementById("text-banner1"),
+gsap.from("div.img_link",
    {scrollTrigger:
-    {trigger: document.getElementById("text-banner1"),start: "top 60%", toggleActions: "restart pause reverse pause"},
-        scale:0, duration:2, ease: "elastic.out(0.75,0.75)"})
+    {trigger: "path.path_mountain",start: "top 50%", end:"bottom 45%", markers: true, scrub:2, toggleActions: "restart pause pause reverse"},
+        scale:0, x:500, x:-viewportWidth/2, duration:0.5, stagger:0.3, ease: "elastic.out(1,0.75)"})
 

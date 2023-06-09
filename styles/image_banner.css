@@ -4,7 +4,7 @@ div.banner {
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    margin-top: 1vh;
+    margin-top: 2vw;
     margin-bottom: 0;
     padding-bottom: 0;
 }
@@ -45,7 +45,7 @@ p.banner-intro{
     color: white;
     font-family: Roboto;
     line-height: 3vw;
-    font-size: 3vw;
+    font-size: clamp(1rem, 3vw, 4rem);
     margin-bottom: 1vh;
     margin-left:4vw;
 }
@@ -61,8 +61,7 @@ p.banner-outro {
 p.banner-name {
     color: rgb(229, 124, 35);
     font-family: "Wix Madefor Text";
-    font-size: 10vw;
-    max-width: 100%;
+    font-size: clamp(2rem,10vw, 15rem);
     font-weight: 900;
     line-height: 6vw;
     margin: 0px;

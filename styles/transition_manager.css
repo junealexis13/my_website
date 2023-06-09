@@ -11,7 +11,7 @@ p.transition{
 div.transition_container {
     position: relative;
     width: 100%;
-    height: 50vh;
+    height: 0;
 }
 
 .overlay {
@@ -90,4 +90,8 @@ html.is-animating .transition-wipe3  {
 
 html.is-animating .transition-wipe4  {
     transform: scaleX(1);
+}
+html.is-animating .transition_container {
+    height: 50vh;
+    transition-delay: 0;
 }

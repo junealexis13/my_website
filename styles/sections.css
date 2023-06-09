@@ -1,7 +1,8 @@
 section.section1 {
   background-color: #E8AA42;
-  height: 200vh;
-  margin:0;
+  height: 105vh;
+  width: 100%;
+  margin:0 0 -1vh 0;
   padding:0;
 }
 
@@ -60,7 +61,6 @@ div.timeline-box {
   border-radius: 5rem;
 }
 
-
 div.header-bar {
   margin-left: 2vw;
 }
@@ -68,4 +68,26 @@ div.header-bar {
 h1.header-textbar {
   font-size: 10rem;
   margin: 0;
+}
+
+div.image_hyperlink {
+  display: flex;
+  flex-direction: row;
+  background-color: #E8AA42;
+  margin: 0 3vw 3vw 3vw;
+  font-weight: bold;
+  padding: 3vw;
+}
+
+div.img_link {
+  display: flex;
+  flex: 1;
+  color: black;
+  justify-content: center;
+  align-items: center;
+}
+
+p.link_header {
+  font-family: "Roboto";
+  font-size: clamp(2rem, 2vh + 0.5rem, 5rem);
 }
