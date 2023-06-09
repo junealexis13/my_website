@@ -73,10 +73,11 @@ h1.header-textbar {
 div.image_hyperlink {
   display: flex;
   flex-direction: row;
+  gap: 5rem;
   background-color: #E8AA42;
-  margin: 0 3vw 3vw 3vw;
+  margin: 0 3vw 0 3vw;
   font-weight: bold;
-  padding: 3vw;
+  padding: 0 3vw 0 3vw;
 }
 
 div.img_link {
@@ -89,5 +90,51 @@ div.img_link {
 
 p.link_header {
   font-family: "Roboto";
-  font-size: clamp(2rem, 2vh + 0.5rem, 5rem);
+  font-size: clamp(1rem,1vw + 0.75rem,3rem);
+  text-align: center;
+}
+
+div.text-hyperlink {
+  display: flex;
+  gap: 5rem;
+  margin: 0 3vw 0 3vw;
+  padding: 0 3vw 0 3vw;
+}
+div.text-container {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  margin: 0 3vw 0 3vw;
+  justify-content: space-between;
+  align-items: center;
+}
+
+p.link-text {
+  display: block;
+  text-align: center;
+  line-height: clamp(1rem,1.5 + 0.5rem,3rem);
+  font-size: clamp(1rem,1vw + 0.5rem,3rem);
+}
+
+a.link-to-page {
+  font-family: "Roboto" ;
+  font-weight: bold;
+  text-align: center;
+  color: rgb(67, 120, 151);
+  text-decoration: none;
+  cursor: pointer;
+  font-size: clamp(1rem,1vw + 0.5rem,3rem);
+  transition: font-size 0.3s;
+}
+
+a.link-to-page:hover {
+  text-decoration: underline;
+  font-size: clamp(1rem,1.5vw + 0.5rem,3rem);
+  color: rgb(2, 84, 100);
+}
+
+a.link-to-page:visited {
+  text-decoration: underline;
+  font-size: clamp(1rem,1.5vw + 0.5rem,3rem);
+  color: rgb(71, 71, 71);
 }

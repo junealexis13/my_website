@@ -1,0 +1,30 @@
+div.about-me-container {
+    display: flex;
+    flex-direction: column;
+    margin: 5rem;
+}
+
+div.about-me-title {
+    flex: 1;
+    color: aliceblue;
+}
+
+p.about-me-title {
+    color: white;
+    font: "Roboto";
+    font-size: 5rem;
+}
+
+p.about-me-narrative {
+    color: white;
+    font-family: 'Architects Daughter', cursive;
+    font-size: 1.5rem;
+    text-align: justify;
+
+}
+
+span.about-me-nickname {
+    font-weight: bold;
+    color:rgb(232, 170, 66) ;
+
+}

@@ -45,7 +45,7 @@ p.banner-intro{
     color: white;
     font-family: Roboto;
     line-height: 3vw;
-    font-size: clamp(1rem, 3vw, 4rem);
+    font-size: 4vw;
     margin-bottom: 1vh;
     margin-left:4vw;
 }

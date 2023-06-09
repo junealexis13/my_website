@@ -16,7 +16,7 @@ tl.fromTo(".banner-image",{opacity:0, x:-90, rotation: "-45deg", scale: 0.5},{op
 tl.fromTo("div.banner-element2",{x:200, opacity:0},{x:0, opacity:1, delay: 0.3})
 
 gsap.from("section.section1",{y:500, ease:"power3.out", duration:0.5, delay: 0.5,})
-gsap.from("path.path_mountain",{ opacity:0.5 ,x:viewportWidth ,ease:"power4.out",stagger:0.2, yoyo: true,delay: 1})
+gsap.from("path.path_mountain",{ opacity:0.5 ,y:viewportHeight ,ease:"power4.out",stagger:0.2, yoyo: true,delay: 1})
 
 tl.from("span.banner-outro-1", {
     opacity:0, duration:1.5, x:500, ease: "power4.out"
@@ -27,6 +27,11 @@ tl.from("span.banner-outro-1", {
 
 gsap.from("div.img_link",
    {scrollTrigger:
-    {trigger: "path.path_mountain",start: "top 50%", end:"bottom 45%", markers: true, scrub:2, toggleActions: "restart pause pause reverse"},
-        scale:0, x:500, x:-viewportWidth/2, duration:0.5, stagger:0.3, ease: "elastic.out(1,0.75)"})
+    {trigger: "div.trigger-box",start: "top 15%", end:"bottom 60%", markers: false, scrub:2, toggleActions: "restart pause pause reverse"},
+        scale:0, x:500, x:-viewportWidth, duration:1.5, stagger:0.3, ease: "power3.out"})
 
+
+gsap.from("div.text-hyperlink",
+    {scrollTrigger:
+        {trigger: "div.trigger-box",start: "top 5%", end:"bottom 60%", markers: false, scrub:2, toggleActions: "restart pause pause reverse"},
+            scale:0, x:500, x:-viewportWidth, duration:1.5, stagger:1, ease: "power4.out"})
