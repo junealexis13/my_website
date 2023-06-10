@@ -1,12 +1,18 @@
 div.about-me-container {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     margin: 5rem;
+    gap: 1vw;
 }
 
 div.about-me-title {
     flex: 1;
     color: aliceblue;
+}
+
+div.about-me-right-window {
+    width: 10vw;
+    background-color: aquamarine;
 }
 
 p.about-me-title {
@@ -23,8 +29,12 @@ p.about-me-narrative {
 
 }
 
-span.about-me-nickname {
+span.about-me-emphasize {
     font-weight: bold;
-    color:rgb(232, 170, 66) ;
+    color:rgb(255, 210, 133) ;
 
+}
+
+span.material-symbols-outlined {
+    color: rgb(255, 169, 71);
 }
