@@ -45,7 +45,8 @@ div.trigger-box {
 }
 
 div.trigger-box-2 {
-    height: 5vh;
+    position: fixed;
+    height: 35vh;
     margin: 0;
     padding: 0;
 }

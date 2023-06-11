@@ -10,34 +10,32 @@ div.section1 {
   display: flex;
   flex: 1;
   flex-direction: row;
-  justify-content: space-between;
+  margin-top: 3vh;
+  margin-left: 8vw;
+  margin-right: 8vw;
+  padding-bottom: 3vh;
+  border-style: solid;
+  border-color: black;
+  box-shadow: 5px 5px 10px rgb(69, 69, 69);
+  border-radius: 10px;
 }
 
 div.section1-a-mid-cont {
-  flex:1;
-  margin-left:25px;
-  margin-right: 25px;
-}
-
-div.section1-a-left-cont {
-  flex:1;
-  margin-left:25px;
-}
-
-div.section1-a-right-cont {
-  flex:1;
-  margin-left:25px;
-  margin-right: 25px;
-}
-
-div.section1-a-middle {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-left:7.5vw;
+  margin-right: 7.5vw;
 }
-.header-text-about {
+
+
+h1.header-text-about {
   color: rgb(2, 84, 100);
+  margin-top: 2vh;
   font-weight: 900;
-  font-size: 3.5vw;
+  font-size: clamp(1rem,2vw + 0.75rem,3rem);
   font-family: "Wix Madefor Text";
   text-align: center;
 
@@ -137,4 +135,34 @@ a.link-to-page:visited {
   text-decoration: underline;
   font-size: clamp(1rem,1.5vw + 0.5rem,3rem);
   color: rgb(71, 71, 71);
+}
+
+hr.divider {
+  border: none;
+  border-top: 1px solid black;
+  width: 90%;
+}
+
+div.skill-ratings {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 10vh;
+  margin: 10rem 12rem 4rem 12rem;
+  gap: 1rem;
+}
+
+div.skill {
+  display: inline-block;
+  color: antiquewhite;
+  fill: none;
+  width: 5rem;
+  height: 25rem;
+  flex: 1;
+  text-align: center;
+  background-color: blue;
+  border-radius: 50%;
+  stroke: green;
+  z-index: 199;
 }

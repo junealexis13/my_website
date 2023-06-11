@@ -1,20 +1,39 @@
 div.stack_banner {
     display: flex;
     flex-direction: row;
-
-    margin-top: 5vh;
-    margin-right: 15vw;
-    margin-left: 15vw;
+    justify-content: space-around;
+    gap: 3vw;
 }
 
 div.stack {
     display: flex;
-    flex: 1;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+    flex: 1;
+}
+
+div.stack-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
 }
 
 img.stack-icon {
-    width: 50%;
+    width: 35%;
     height: 100%;
+    object-fit: cover;
+}
+
+
+p.stack-icon-name {
+    display: block;
+    color: rgb(2, 84, 100) ;
+    font-family: "Roboto";
+    font-weight: bold;
+    margin-top: 0.5rem ;
+    margin-bottom: 0.5rem ;
+    opacity: 1;
 }

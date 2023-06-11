@@ -11,7 +11,7 @@
         <link rel="stylesheet" href="styles/image_banner.css">
         <link rel="stylesheet" href="styles/sections.css">
         <link rel="stylesheet" href="styles/techstack.css">
-        <link rel="stylesheet" href="styles/transition_manager.css">
+        <link rel="stylesheet" href="styles/skill_rating_animation.css">
         <link href="https://fonts.googleapis.c<link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Carter+One&family=Roboto:ital,wght@0,100;0,500;0,700;0,900;1,500&family=Titan+One&family=Wix+Madefor+Text:ital,wght@0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
@@ -80,7 +80,7 @@
                         <p class="link_header"><span style="font-size: clamp(1rem, 4.5rem, 6rem);display: block; color: rgb(2, 84, 100);" class="material-symbols-rounded">genetics</span>Others</p>
                     </div>
                 </div>
-                
+
                 <div class="text-hyperlink">
                     <div class="text-container">
                         <p class="link-text">Bridging the gap between technology and chemistry: that is where I come in.</p>
@@ -95,7 +95,12 @@
                         <a href="about_me.html" class="link-to-page">Show other skills</a>
                     </div>
                 </div>
-                <!-- <div class="section1">
+
+
+                <div class="trigger-box-2"></div>
+                <hr class="divider"></div>
+
+                <div class="section1">
                     <div class="section1-a-mid-cont">
                         <h1 class="header-text-about">
                             My Tech Stack
@@ -103,22 +108,92 @@
                         <div class="stack_banner">
                             <div class="stack">
                                 <img class="stack-icon" src="images/icons/tech-sql.png" alt="sql" title="SQL">
+                                <p class="stack-icon-name">SQL</p>
                             </div>
                             <div class="stack">
                                 <img class="stack-icon" src="images/icons/tech-python.png" alt="python" title="Python">
+                                <p class="stack-icon-name">Python</p>
                             </div>
                             <div class="stack">
                                 <img class="stack-icon" src="images/icons/tech-vis.png" alt="vis" title="Data Visualization">
+                                <p class="stack-icon-name">MatplotLib</p>
                             </div>
                             <div class="stack">
                                 <img class="stack-icon" src="images/icons/tech-bash.png" alt="bash" title="Bash">
+                                <p class="stack-icon-name">Bash</p>
                             </div>
                             <div class="stack">
-                                <img class="stack-icon" src="images/icons/tech-gis.png" alt="gis" title="Geographic Information Systems">
+                                    <img class="stack-icon" src="images/icons/tech-gis.png" alt="gis" title="Geographic Information Systems">
+                                    <p class="stack-icon-name">QGIS</p>
+                            </div>
+                            <div class="stack">
+                                    <img class="stack-icon" src="images/icons/tech-md.png" alt="gis" title="Molecular Dynamics Simulation Platform">
+                                    <p class="stack-icon-name">GROMACS</p>
                             </div>
                         </div>
                     </div>
-                </div> -->
+                </div>
+
+                <div class="skill-ratings">
+                    <h1 class="header-text-about">Experience Level</h1>
+                    <div class="progress-bar1">
+                        <svg viewBox="0 0 100 100">
+                            <defs>
+                                <linearGradient id="gradient" gradientTransform="rotate(60)">
+                                    <stop offset="0%" stop-color="#025464"></stop>
+                                    <stop offset="50%" stop-color="#E57C23"></stop>
+                                    <stop offset="100%" stop-color="#4C4C6D "></stop>
+                                </linearGradient>
+                            </defs>
+                            <circle cx="50" cy="50" r="40"></circle>
+                            <circle class="progress1 progress-gradient" cx="50" cy="50" r="40"></circle>
+                        </svg>
+                        <span>General Programming Experience with Python and SQL</span>
+                    </div>
+                    <div class="progress-bar2">
+                        <svg viewBox="0 0 100 100">
+                            <defs>
+                                <linearGradient id="gradient" gradientTransform="rotate(90)">
+                                    <stop offset="0%" stop-color="#025464"></stop>
+                                    <stop offset="50%" stop-color="#E57C23"></stop>
+                                    <stop offset="100%" stop-color="#4C4C6D "></stop>
+                                </linearGradient>
+                            </defs>
+                            <circle cx="50" cy="50" r="40"></circle>
+                            <circle class="progress2 progress-gradient" cx="50" cy="50" r="40"></circle>
+                        </svg>
+                        <span>Data Analysis and Visualization using Python Data Science Toolkit</span>
+                    </div>
+                    <div class="progress-bar3">
+                        <svg viewBox="0 0 100 100">
+                            <defs>
+                                <linearGradient id="gradient" gradientTransform="rotate(90)">
+                                    <stop offset="0%" stop-color="#025464"></stop>
+                                    <stop offset="50%" stop-color="#E57C23"></stop>
+                                    <stop offset="100%" stop-color="#4C4C6D "></stop>
+                                </linearGradient>
+                            </defs>
+                            <circle cx="50" cy="50" r="40"></circle>
+                            <circle class="progress3 progress-gradient" cx="50" cy="50" r="40"></circle>
+                        </svg>
+                        <span>Application of GIS in Spatiotemporal Related Research Fields</span>
+                    </div>
+                    <div class="progress-bar4">
+                        <svg viewBox="0 0 100 100">
+                            <defs>
+                                <linearGradient id="gradient" gradientTransform="rotate(90)">
+                                    <stop offset="0%" stop-color="#025464"></stop>
+                                    <stop offset="50%" stop-color="#E57C23"></stop>
+                                    <stop offset="100%" stop-color="#4C4C6D "></stop>
+                                </linearGradient>
+                            </defs>
+                            <circle cx="50" cy="50" r="40"></circle>
+                            <circle class="progress4 progress-gradient" cx="50" cy="50" r="40"></circle>
+                        </svg>
+                        <span>MD Simulations and HPC automation using Bash Programming</span>
+                    </div>
+
+                </div>
             </section>
     
             <div class="curve-divider-image-2">

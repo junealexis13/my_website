@@ -1,0 +1,167 @@
+.progress-bar1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1vh;
+    align-items: center;
+    width: 8vw;
+    z-index: 3;
+  }
+  
+  .progress-bar1 svg {
+    flex:1;
+    transform: rotate(-90deg);
+  }
+  
+  .progress-bar1 circle {
+    fill: none;
+    stroke: #e0e0e052;
+    stroke-width: 1rem;
+  }
+  
+  .progress-bar1 .progress1 {
+    fill: none;
+    stroke-width: 1rem;
+    stroke-linecap: round;
+    stroke-dasharray: 0 1000;
+    animation: progressAnimation 4s ease-in-out forwards;
+  }
+  
+  .progress-bar1 .progress-gradient {
+    stroke: url(#gradient);
+  }
+  
+  .progress-bar1 span {
+    font-family: "Roboto";
+    font-size: clamp(0.2rem, 1vw, 1rem);
+    font-weight: bold;
+    color: #333;
+    text-align: center;
+  }
+
+
+.progress-bar2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1vh;
+    align-items: center;
+    width: 8vw;
+    z-index: 3;
+  }
+  
+  .progress-bar2 svg {
+    flex:1;
+    transform: rotate(-90deg);
+  }
+  
+  .progress-bar2 circle {
+    fill: none;
+    stroke: #e0e0e052;
+    stroke-width: 1rem;
+  }
+  
+  .progress-bar2 .progress2 {
+    fill: none;
+    stroke-width: 1rem;
+    stroke-linecap: round;
+    stroke-dasharray: 0 1000;
+    animation: progressAnimation 4s ease-in-out forwards;
+  }
+  
+  .progress-bar2 .progress-gradient {
+    stroke: url(#gradient);
+  }
+  
+  .progress-bar2 span {
+    font-family: "Roboto";
+    font-size: clamp(0.2rem, 1vw, 1rem);
+    font-weight: bold;
+    color: #333;
+    text-align: center;
+  }
+
+
+
+  .progress-bar3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1vh;
+    align-items: center;
+    width: 8vw;
+    z-index: 3;
+  }
+  
+  .progress-bar3 svg {
+    flex:1;
+    transform: rotate(-90deg);
+  }
+  
+  .progress-bar3 circle {
+    fill: none;
+    stroke: #e0e0e052;
+    stroke-width: 1rem;
+  }
+  
+  .progress-bar3 .progress3 {
+    fill: none;
+    stroke-width: 1rem;
+    stroke-linecap: round;
+    stroke-dasharray: 0 1000;
+    animation: progressAnimation 4s ease-in-out forwards;
+  }
+  
+  .progress-bar3 .progress-gradient {
+    stroke: url(#gradient);
+  }
+  
+  .progress-bar3 span {
+    font-family: "Roboto";
+    font-size: clamp(0.2rem, 1vw, 1rem);
+    font-weight: bold;
+    color: #333;
+    text-align: center;
+  }
+
+
+  .progress-bar4 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1vh;
+    align-items: center;
+    width: 8vw;
+    z-index: 3;
+  }
+  
+  .progress-bar4 svg {
+    flex:1;
+    transform: rotate(-90deg);
+  }
+  
+  .progress-bar4 circle {
+    fill: none;
+    stroke: #e0e0e052;
+    stroke-width: 1rem;
+  }
+  
+  .progress-bar4 .progress4 {
+    fill: none;
+    stroke-width: 1rem;
+    stroke-linecap: round;
+    stroke-dasharray: 0 1000;
+    animation: progressAnimation 4s ease-in-out forwards;
+  }
+  
+  .progress-bar4 .progress-gradient {
+    stroke: url(#gradient);
+  }
+  
+  .progress-bar4 span {
+    font-family: "Roboto";
+    font-size: clamp(0.2rem, 1vw, 1rem);
+    font-weight: bold;
+    color: #333;
+    text-align: center;
+  }
