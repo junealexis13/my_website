@@ -3,6 +3,17 @@ gsap.registerPlugin(ScrollTrigger);
 // Wiping animation
 const tl = gsap.timeline({defaults: {duration:1, ease: "power3.out"}})
 
+// Wait for the page to load
+window.addEventListener("DOMContentLoaded", function() {
+    // Hide the loader
+    var loader = document.getElementById("loader");
+    loader.style.display = "none";
+
+    // Show the main content
+    var mainContent = document.getElementById("main-content");
+    mainContent.style.display = "block";
+});
+
 // getting the viewport dimensions
 var viewportWidth = window.innerWidth || document.documentElement.clientWidth
 var viewportHeight = window.innerHeight || document.documentElement.clientHeight
@@ -91,3 +102,5 @@ gsap.to("circle.progress4",{scrollTrigger:{trigger: "div.trigger-box-2",start: "
 
 gsap.from(".footer-layout-left, .footer-layout-right, .footer-layout-others",{scrollTrigger:{trigger: "div.trigger-box-3",start: "top 50%",end:"bottom 75%", markers: false, scrub: 5, toggleActions: "restart pause pause reverse"},
         y:viewportHeight/2 , opacity:0, duration:1.5, stagger:0.5, ease: "power4.out"});
+
+
