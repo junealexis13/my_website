@@ -32,6 +32,7 @@ p.stack-icon-name {
     display: block;
     color: rgb(2, 84, 100) ;
     font-family: "Roboto";
+    font-size: clamp(0.5rem, 1vw + 0.25rem, 1rem);
     font-weight: bold;
     margin-top: 0.5rem ;
     margin-bottom: 0.5rem ;

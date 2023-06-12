@@ -85,3 +85,9 @@ gsap.to("circle.progress3",{scrollTrigger:{trigger: "div.trigger-box-2",start: "
 
 gsap.to("circle.progress4",{scrollTrigger:{trigger: "div.trigger-box-2",start: "top 50%", end:"bottom 75%", markers: false, scrub: 8, toggleActions: "restart pause pause reverse"},
         strokeDasharray: `${mdSimExp} 1000` , duration:1.5, delay:3, ease: "power4.out"});
+
+
+// Footer Animation
+
+gsap.from(".footer-layout-left, .footer-layout-right, .footer-layout-others",{scrollTrigger:{trigger: "div.trigger-box-3",start: "top 50%",end:"bottom 75%", markers: false, scrub: 5, toggleActions: "restart pause pause reverse"},
+        y:viewportHeight/2 , opacity:0, duration:1.5, stagger:0.5, ease: "power4.out"});
