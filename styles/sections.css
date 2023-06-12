@@ -110,8 +110,8 @@ div.text-container {
 p.link-text {
   display: block;
   text-align: center;
-  line-height: clamp(1rem,1.5 + 0.5rem,3rem);
-  font-size: clamp(1rem,1vw + 0.5rem,3rem);
+  line-height: clamp(1rem, 2vh + 0.5rem,3rem);
+  font-size: clamp(0.5rem,1vw + 0.5rem,2rem);
 }
 
 a.link-to-page {
@@ -161,6 +161,7 @@ div.skill-ratings {
 footer {
   position: relative;
   display: flex;
+  flex-wrap: wrap;
   flex-direction: row;
   background-color: #E8AA42;
   grid-template-columns: 0.5fr 2fr 1fr;
@@ -188,6 +189,7 @@ footer {
 div.footer-contact-container {
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
   column-gap: 1rem;
   justify-content: center;
 }
