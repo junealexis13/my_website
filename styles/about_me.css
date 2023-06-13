@@ -1,11 +1,11 @@
 div.about-me-container {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     margin: 5rem;
     gap: 1vw;
 }
 
-div.about-me-title {
+div.about-me-narrative {
     flex: 1;
     color: aliceblue;
 }
@@ -21,10 +21,10 @@ p.about-me-title {
     font-size: 5rem;
 }
 
-p.about-me-narrative {
+p.about-me-narrative, p.random-placeholder{
     color: white;
     font-family: 'Architects Daughter', cursive;
-    font-size: 1.5rem;
+    font-size: 1rem;
     text-align: justify;
 }
 
@@ -32,6 +32,15 @@ p.toc-header {
     color: #025464 ;
     font-family: 'Roboto';
     font-weight: bold;
+}
+
+p.toc-header-head {
+    color: #025464 ;
+    font-family: 'Roboto';
+    font-weight: bold;
+    font-size: clamp(0.5rem, 1.75rem , 2.5rem);
+    text-align: left;
+    margin: 1rem;
 }
 
 span.about-me-emphasize {
@@ -46,24 +55,27 @@ span.material-symbols-outlined {
 
 main.about-me{
     display: grid;
-    grid-template-columns: 10vw 1fr;
+    grid-template-columns: 1fr 4fr;
 }
 
 div.sidebar-container{
+    position: relative;
     left: 0;
     top: 0;
     background-color: rgb(255, 210, 133);
     height: 100%;
+
     box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.486);
 }
 
 div.sidebar{
+    /* background-color: rgba(231, 146, 0); */
     position: fixed;
     display: grid;
+    width: auto;
     grid-template-columns: 1fr 3fr;
     left: 0;
     top: 0;
-    height: 100%;
 }
 
 circle#circle-lower, circle#circle-upper {
