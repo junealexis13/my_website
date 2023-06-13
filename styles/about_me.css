@@ -19,26 +19,30 @@ p.about-me-title {
     color: white;
     font: "Roboto";
     font-size: 5rem;
+    margin-top: 0;
 }
 
 p.about-me-narrative, p.random-placeholder{
     color: white;
     font-family: 'Architects Daughter', cursive;
-    font-size: 1rem;
+    font-size: 1.5rem;
     text-align: justify;
 }
 
 p.toc-header {
     color: #025464 ;
     font-family: 'Roboto';
-    font-weight: bold;
+    margin: 0;
+    font-size: clamp(0.75rem, 1vw + 0.25rem, 1rem);
+    text-decoration: none;
+    
 }
 
 p.toc-header-head {
     color: #025464 ;
-    font-family: 'Roboto';
-    font-weight: bold;
-    font-size: clamp(0.5rem, 1.75rem , 2.5rem);
+    font-family: 'Wix Madefor Text';
+    font-weight: 800;
+    font-size: clamp(1rem, 1.5vw , 2.5rem);
     text-align: left;
     margin: 1rem;
 }
@@ -55,7 +59,7 @@ span.material-symbols-outlined {
 
 main.about-me{
     display: grid;
-    grid-template-columns: 1fr 4fr;
+    grid-template-columns: .5fr 4fr;
 }
 
 div.sidebar-container{
@@ -64,19 +68,56 @@ div.sidebar-container{
     top: 0;
     background-color: rgb(255, 210, 133);
     height: 100%;
-
+    width: 15vw;
+    max-width: 20vw;
     box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.486);
 }
 
 div.sidebar{
     /* background-color: rgba(231, 146, 0); */
     position: fixed;
-    display: grid;
-    width: auto;
-    grid-template-columns: 1fr 3fr;
+    display: flex;
+    width: inherit;
+    flex-direction: column;
     left: 0;
     top: 0;
 }
+
+div.sidebar-logo {
+    flex: 1;
+    background-color:rgba(243, 155, 78, 0.452) ;
+    padding-left: 1rem;
+    justify-content: center;
+    box-shadow: 0 2px 5px black;
+}
+
+div.content {
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: auto;
+}
+
+.sidebar-content-link {
+    text-decoration: none;
+    font-size: clamp(0.75rem, 1vw + 0.25rem, 1rem);
+    color: #025464;
+    transition: margin-left 0.2s ease, font-size 0.5s, color 0.5s;
+
+}
+
+.sidebar-content-link:hover {
+    text-decoration: underline;
+    font-weight: bold;
+    color: black;
+    margin-left: 5px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.212);
+    font-size: calc(clamp(0.75rem, 1vw + 0.25rem, 1rem) + 0.3rem);
+
+}
+
+
 
 circle#circle-lower, circle#circle-upper {
     box-shadow: 14px 14px 4px black;
