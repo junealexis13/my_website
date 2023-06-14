@@ -1,3 +1,16 @@
+div.header-drip {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: -1;
+}
+
+.header-drip svg {
+    width: 100%;
+    height: auto;
+}
+
 div.about-me-container {
     display: flex;
     flex-direction: column;
@@ -18,14 +31,15 @@ div.about-me-right-window {
 p.about-me-title {
     color: white;
     font: "Roboto";
-    font-size: 5rem;
-    margin-top: 0;
+    font-size: clamp(2rem, 8vw + 2rem, 4rem);
+    margin: 0;
+    text-align: center;
 }
 
 p.about-me-narrative, p.random-placeholder{
     color: white;
     font-family: 'Architects Daughter', cursive;
-    font-size: 1.5rem;
+    font-size: 1.4rem;
     text-align: justify;
 }
 
@@ -81,11 +95,11 @@ div.sidebar{
     flex-direction: column;
     left: 0;
     top: 0;
+    z-index: 2;
 }
 
 div.sidebar-logo {
     flex: 1;
-    background-color:rgba(243, 155, 78, 0.452) ;
     padding-left: 1rem;
     justify-content: center;
     box-shadow: 0 2px 5px black;
@@ -118,7 +132,71 @@ div.content {
 }
 
 
+.about-me-container-header {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    gap: 1rem;
+}
 
+.about-me-container-header img {
+    object-fit: cover;
+    object-position: center;
+    aspect-ratio: 1/1;
+
+    border-radius: 50%;
+    border-style: solid;
+    border-color: #E8AA42;
+    border-width: 10px;
+
+    width: 100%;
+    max-width: 12vw;
+    scale: 0.85;
+}
+
+.about-me-container-header p {
+    margin: 0;
+    font-size: clamp(1rem, 12vh + 1.5rem, 5rem);
+}
 circle#circle-lower, circle#circle-upper {
     box-shadow: 14px 14px 4px black;
+}
+
+
+div.education-timeline {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+div.education-timeline div.education-header-title {
+    flex: 1;
+}
+div.education-card-container {
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+
+}
+
+div.education-card {
+    position: relative;
+    height: 100%;
+    background-color: #ffd285 ;
+    flex: 1;
+
+    border-radius: 1rem 1rem 0.25rem 0.25rem;
+    padding: 0.5rem;
+}
+
+div.education-card img {
+    position: relative;
+    top: 0.5rem;
+    left: 0.5rem;
+    border-radius: 10px;
+    width: calc(100% - 1rem);
+    aspect-ratio: 2/1;
 }
