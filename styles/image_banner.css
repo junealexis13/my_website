@@ -33,6 +33,14 @@ div.banner-intro div.banner-outro {
     width: 90%;
 }
 
+div.banner-outro {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    /* background-color: aqua; */
+    gap: 0;
+}
 
 img.banner-image {
     border-radius: 50%;
@@ -55,7 +63,7 @@ p.banner-outro {
     font-weight: bold;
     line-height: 0;
     font-size: 4vw;
-    text-align: center;
+    text-align: left;
 }
 
 p.banner-name {
@@ -70,10 +78,27 @@ span.banner-outro-1 {
     font-family: "Wix Madefor Text";
     font-weight: 100;
     font-size: 4.5vw;
-    margin-left: 5vw;
 }
 
 span.banner-name-surname {
     color: #FDE07F;
     font-size: 12vw;
+}
+
+div.lottie-wrapper {
+    position: relative;
+    display: flex;
+    justify-content: left;
+    align-items: start;
+    width: 15vw;
+
+}
+.lottie-item {
+    position: absolute;
+    left: 0;
+    width: 100%;
+    scale: 1.75;
+    padding-left: 1.8vw;
+    /* height: 50%; */
+
 }

@@ -35,10 +35,16 @@ tl.fromTo("div.banner-element2",{x:200, opacity:0},{x:0, opacity:1, delay: 0.3})
 gsap.from("section.section1",{opacity:0, ease:"power3.out", duration:0.5, delay: 0.5,})
 gsap.from("path.path_mountain",{ opacity:0.5 ,y:viewportHeight ,ease:"power4.out",stagger:0.2, yoyo: true,delay: 1})
 
+tl.from("div.lottie-wrapper", {
+    opacity:0, duration:0.5, x:-250, ease: "power4.out"
+ }
+)
 tl.from("span.banner-outro-1", {
     opacity:0, duration:1.5, x:500, ease: "power4.out"
  }
 )
+
+
 
 // TIMELINE ANIMATIONS
 
