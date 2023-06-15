@@ -67,13 +67,13 @@ gsap.from("div.text-section1",
 gsap.from("hr.divider",
 {scrollTrigger:
     {trigger: "div.trigger-box",start: "top 5%", end:"bottom 60%", markers: false, scrub:5, toggleActions: "restart pause pause reverse"},
-        opacity:0, x:100, duration:1.5, stagger:1.5, ease: "power4.out"});
+        opacity:0, y:100, duration:1.5, stagger:1.5, ease: "power4.out"});
 
 
 gsap.from("div.section1",
 {scrollTrigger:
     {trigger: "div.trigger-box-2",start: "top 50%", end:"bottom 90%", markers: false,scrub:3, toggleActions: "restart pause pause reverse"},
-        opacity:0, x:100, duration:1.5, stagger:1, ease: "power4.out"});
+        opacity:0, y:100, duration:1.5, stagger:1, ease: "power4.out"});
 
 gsap.from("div.section1-a-mid-cont",
 {scrollTrigger:
@@ -89,7 +89,7 @@ gsap.from("div.stack",
 // Animating Skill levels via Circular Progress Bar
 
 gsap.from("div.skill-ratings",{scrollTrigger:{trigger: "div.trigger-box-2",start: "top 50%", end:"bottom 75%", markers: false, scrub: 5, toggleActions: "restart pause pause reverse"},
-        x:-100 , opacity:0, duration:1.5, stagger:1, ease: "power4.out"});
+        y:100 , opacity:0, duration:1.5, stagger:1, ease: "power4.out"});
 
 gsap.to("circle.progress1",{scrollTrigger:{trigger: "div.trigger-box-2",start: "top 50%", end:"bottom 75%", markers: false, scrub: 8, toggleActions: "restart pause pause reverse"},
         strokeDasharray: `${pythonExp} 1000` , duration:1.5, delay:1, ease: "power4.out"});
