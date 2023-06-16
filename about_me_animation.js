@@ -15,3 +15,6 @@ gsap.from("svg.toc-mark4",{scrollTrigger:{trigger: "div.milestone-timeline", mar
 
 gsap.from("svg.toc-mark5",{scrollTrigger:{trigger: "div.others-timeline", markers:false, start: "top 50%", end: "bottom 0%", toggleActions: "restart reverse restart reverse"},
         scale:0.5, duration: 0.2, ease: "power3.out"});
+
+gsap.from("svg.goto-home",{scrollTrigger:{trigger: "div.others-timeline", markers:false, start: "top 50%", end: "bottom 0%", toggleActions: "restart reverse restart reverse"},
+        scale:0.5, duration: 0.2, ease: "power3.out"});

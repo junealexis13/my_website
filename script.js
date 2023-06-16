@@ -19,7 +19,7 @@ var viewportWidth = window.innerWidth || document.documentElement.clientWidth
 var viewportHeight = window.innerHeight || document.documentElement.clientHeight
 
 // Adding event listener to clicks to change the page
-document.getElementById("link-research").addEventListener("click", function() {window.location.href = "./page1.html"});
+document.getElementById("link-research").addEventListener("click", function() {window.location.href = "./researches.html"});
 document.getElementById("link-home").addEventListener("click", function() {window.location.href = "./index.html"});
     
 // Circular Progress Total

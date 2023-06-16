@@ -5,6 +5,13 @@ body {
     overflow-x: hidden;
 }
 
+body::-webkit-scrollbar {
+    background-color: #ffd285;
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: #00697c;
+}
 p {
     font-family: "Roboto" ;
 }
