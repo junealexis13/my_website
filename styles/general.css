@@ -9,7 +9,7 @@ body::-webkit-scrollbar {
     background-color: #ffd285;
 }
 
-body::-webkit-scrollbar-thumb {
+body::-webkit-scrollbar-thumb   {
     background-color: #00697c;
 }
 p {

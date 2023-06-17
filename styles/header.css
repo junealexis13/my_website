@@ -9,6 +9,7 @@ div.header {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    position: relative;
     align-items: center;
     height: 10vh;
     background-color: rgb(2, 84, 100);

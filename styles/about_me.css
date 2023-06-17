@@ -121,12 +121,10 @@ div.content {
     gap: 4px;
 }
 
-div.content .goto-menu {
-    width: 2rem;
-    height: auto;
-    margin: 0.5rem 1rem 0.5rem 1rem;
-    color: #025464;
-
+div.content .material-symbols-outlined {
+  color: #00323b;
+  margin-left: 1rem;
+  font-size: clamp(0.25rem, 1vw + 0.5rem, 2rem);
 }
 
 .sidebar-content-link {

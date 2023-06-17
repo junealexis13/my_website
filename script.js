@@ -21,6 +21,8 @@ var viewportHeight = window.innerHeight || document.documentElement.clientHeight
 // Adding event listener to clicks to change the page
 document.getElementById("link-research").addEventListener("click", function() {window.location.href = "./researches.html"});
 document.getElementById("link-home").addEventListener("click", function() {window.location.href = "./index.html"});
+document.getElementById("link-contact").addEventListener("click", function() {window.location.href = "./contact.html"});
+document.getElementById("link-about").addEventListener("click", function() {window.location.href = "./about_me.html"});
     
 // Circular Progress Total
 const circleProgress = 250
