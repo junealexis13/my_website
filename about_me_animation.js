@@ -1,3 +1,10 @@
+// Adding event listener to clicks to change the page
+document.getElementById("link-research").addEventListener("click", function() {window.location.href = "./researches.html"});
+document.getElementById("link-home").addEventListener("click", function() {window.location.href = "./index.html"});
+document.getElementById("link-contact").addEventListener("click", function() {window.location.href = "./contact.html"});
+document.getElementById("link-about").addEventListener("click", function() {window.location.href = "./about_me.html"});
+
+// Animation timeline
 gsap.registerPlugin(ScrollTrigger);
 
 gsap.from("svg.toc-mark1",{scrollTrigger:{trigger: "div.about-me-narrative", start: "top 0%", end: "bottom 10%",  markers:false, toggleActions: "restart reverse restart reverse"},

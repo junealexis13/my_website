@@ -12,7 +12,6 @@ div.header {
     position: relative;
     align-items: center;
     height: 10vh;
-    background-color: rgb(2, 84, 100);
     box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.2);
 }
 
@@ -49,19 +48,3 @@ img.logo {
     margin-left: 25px;
 }
 
-
-span.material-symbols-outlined {
-    color: rgb(232, 170, 66);
-    text-align: center;
-    cursor: pointer;
-    transition: color 0.2s, font-size 0.2s, margin-left 0.2s;
-    font-size: 5vh;
-}
-
-span.material-symbols-outlined:hover {
-    color: rgb(232, 170, 66);
-    text-align: center;
-    margin-left: 5px;
-    cursor: pointer;
-    font-size: 6vh;
-}

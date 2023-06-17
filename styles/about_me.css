@@ -14,13 +14,15 @@ div.header-drip {
 div.about-me-container {
     display: flex;
     flex-direction: column;
-    margin: 5rem;
+    margin: 2.5rem;
     gap: 1vw;
 }
 
 div.about-me-narrative {
     flex: 1;
     color: aliceblue;
+    width: 100%;
+    max-width: 75vw;
 }
 
 div.about-me-right-window {
@@ -30,16 +32,15 @@ div.about-me-right-window {
 
 p.about-me-title {
     color: white;
-    font: "Roboto";
-    font-size: clamp(2rem, 8vw + 2rem, 4rem);
-    margin: 0.5rem;
-    text-align: left;
+    font-family: 'Poppins';
+    font-weight: 500;
+    font-size: clamp(0.25rem, 1.75vw + 0.5rem, 1rem);
 }
 
 p.about-me-narrative, p.random-placeholder{
     color: white;
     font-family: 'Architects Daughter', cursive;
-    font-size: 1.4rem;
+    font-size: clamp(0.5rem, 1vw + 0.25rem, 1rem);
     text-align: justify;
 }
 
@@ -56,9 +57,9 @@ p.toc-header-head {
     color: #025464 ;
     font-family: 'Wix Madefor Text';
     font-weight: 800;
-    font-size: clamp(1rem, 1.5vw , 2.5rem);
+    font-size: clamp(0.5rem, 1.25vw + 0.5rem , 2rem);
     text-align: left;
-    margin: 1rem;
+    margin-left: 1rem ;
 }
 
 span.about-me-emphasize {
@@ -73,7 +74,7 @@ span.material-symbols-outlined {
 
 main.about-me{
     display: grid;
-    grid-template-columns: .5fr 4fr;
+    grid-template-columns: 0.5fr 4fr;
 }
 
 div.sidebar-container{
@@ -82,9 +83,10 @@ div.sidebar-container{
     top: 0;
     background-color: rgb(255, 210, 133);
     height: 100%;
-    width: 15vw;
+    width: 20vw;
     max-width: 20vw;
     box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.486);
+    
 }
 
 div.sidebar{
@@ -95,7 +97,6 @@ div.sidebar{
     flex-direction: column;
     left: 0;
     top: 0;
-    z-index: 2;
 }
 
 div.sidebar .nav {
@@ -109,15 +110,17 @@ div.sidebar-logo {
     flex: 1;
     padding-left: 1rem;
     justify-content: center;
-    box-shadow: 0 2px 5px black;
+    z-index: 3;
+    background-color: #ffd285;
+    margin: 0;
+    height: 10vh;
 }
 
 div.content {
-    flex: 1;
+    height: 4vh;
     display: flex;
     flex-direction: row;
     align-items: center;
-    height: auto;
     gap: 4px;
 }
 
@@ -125,6 +128,7 @@ div.content .material-symbols-outlined {
   color: #00323b;
   margin-left: 1rem;
   font-size: clamp(0.25rem, 1vw + 0.5rem, 2rem);
+  width: auto;
 }
 
 .sidebar-content-link {

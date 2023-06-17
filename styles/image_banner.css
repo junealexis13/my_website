@@ -77,12 +77,13 @@ p.banner-name {
 span.banner-outro-1 {
     font-family: "Wix Madefor Text";
     font-weight: 100;
-    font-size: 4.5vw;
+    font-size: 4vw;
 }
 
 span.banner-name-surname {
     color: #FDE07F;
     font-size: 12vw;
+    padding-left: 11vw;
 }
 
 div.lottie-wrapper {
@@ -98,7 +99,7 @@ div.lottie-wrapper {
     left: 0;
     width: 100%;
     scale: 1.75;
-    padding-left: 1.8vw;
+    padding-left: 1vw;
     /* height: 50%; */
 
 }
