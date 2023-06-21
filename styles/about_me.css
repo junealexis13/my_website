@@ -34,7 +34,7 @@ p.about-me-title {
     color: white;
     font-family: 'Poppins';
     font-weight: 500;
-    font-size: clamp(0.25rem, 1.75vw + 0.5rem, 1rem);
+    font-size: clamp(0.25rem, 1vw + 1.5rem, 2rem);
 }
 
 p.about-me-narrative, p.random-placeholder{
@@ -48,7 +48,7 @@ p.toc-header {
     color: #025464 ;
     font-family: 'Roboto';
     margin: 0;
-    font-size: clamp(0.75rem, 1vw + 0.25rem, 1rem);
+    font-size: clamp(0.5rem, 1vw + 0.25rem, 1.5rem);
     text-decoration: none;
     
 }
@@ -174,7 +174,8 @@ div.content .material-symbols-outlined {
 
 .about-me-container-header p {
     margin: 0;
-    font-size: clamp(1rem, 12vh + 1.5rem, 5rem);
+    font-weight: 500;
+    font-size: clamp(1rem, 2vw + 2.5rem, 5rem);
 }
 circle#circle-lower, circle#circle-upper {
     box-shadow: 14px 14px 4px black;
